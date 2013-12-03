@@ -6,6 +6,7 @@
     <string name="hello_world">Hello world!</string>
     <string name="edit_message">Digite uma mensagem</string>
     <string name="button_send">Enviar</string>
-	<string name="title_activity_main">BoasVindasActivity</string>
-    
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_mostra_mensagem">MostraMensagemActivity</string>
+
 </resources>

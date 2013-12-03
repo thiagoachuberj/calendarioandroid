@@ -13,8 +13,9 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
+        
         <activity
-            android:name="br.com.calendarioweb.BoasVindasActivity"
+            android:name="br.com.calendarioweb.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,6 +23,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        
+        <activity
+            android:name="br.com.calendarioweb.MostraMensagemActivity"
+            android:label="@string/title_activity_mostra_mensagem"
+            android:parentActivityName="br.com.calendarioweb.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.com.calendarioweb.MainActivity" />
+        </activity>
+        
     </application>
 
 </manifest>
